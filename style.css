@@ -185,8 +185,8 @@ main {
   max-width: 510px;
 }
 .download-cv {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 .btn-download-cv {
   border-radius: 5px;
@@ -196,4 +196,46 @@ main {
   color: white;
   font-size: 20px;
   font-weight: 700;
+  margin-bottom: 110px;
+}
+.footer {
+  background: #fff8f3;
+  /* margin: 0 auto; */
+  padding: 130px 100px;
+  display: flex;
+}
+.connection {
+  margin-right: 115px;
+}
+.message-form {
+  width: 50%;
+}
+.connection-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.connection-description {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-right: 60px;
+}
+.form input {
+  display: block;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  padding: 20px;
+  width: 100%;
+}
+.form .btn-submit {
+  border-radius: 5px;
+  background: #fd6e0a;
+  width: 150px;
+  color: white;
+  font-weight: bold;
 }
