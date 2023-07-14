@@ -20,7 +20,7 @@ body {
   font-weight: 800;
 }
 .nav-title {
-  color:#181818;
+  color: #181818;
   font-family: Open Sans;
   font-size: 45px;
   font-style: normal;
@@ -44,10 +44,11 @@ ul a {
   font-size: 20px;
   font-weight: 700;
   margin-right: 30px;
+  text-align: center;
 }
 .btn-contact {
   border-radius: 5px;
-  border: 1px solid #FD6E0A;
+  border: 1px solid #fd6e0a;
   padding: 18px 35px;
   color: #fd6e0a;
   font-size: 20px;
@@ -92,4 +93,107 @@ ul a {
 .header-img {
   width: 500px;
   margin-left: 160px;
+}
+/* main content  */
+main {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+.info-description {
+  font-weight: bold;
+}
+.what-i-do-section {
+  margin-bottom: 130px;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+.skill-type {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+.skill-icon {
+  margin-bottom: 30px;
+}
+.skill-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 200px;
+}
+/* resume summary  */
+.summary-section {
+  display: flex;
+  justify-content: space-between;
+}
+.summary-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.degree-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.degree-duration {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+.degree-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.summary-content {
+  max-width: 510px;
+}
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+.btn-download-cv {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  padding: 18px 35px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
